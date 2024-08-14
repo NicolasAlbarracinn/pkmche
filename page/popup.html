@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>PokeCard Helper</title>
+  <link rel="stylesheet" href="../css/milligram.min.css">
+  <link rel="stylesheet" href="../css/popup.css">
+</head>
+
+<body>
+  <fieldset>
+    <legend>Pokemon TCG Codes (<span id="codesCount">0</span>)</legend>
+    <textarea placeholder="Enter one code per line:
+XXX-XXXX-XXX-XXX
+YYY-YYYY-YYY-YYY" id="codesField" autofocus></textarea>
+    <div>
+      <button id="redeemCode" class="button">Redeem</button>
+    </div>
+  </fieldset>
+  <div id="reader"></div>
+  <script type="module" src="../js/popup.js"></script>
+</body>
+
+</html>

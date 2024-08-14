@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Pokemon TCG Live Reedemer",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "page/popup.html",
+    "default_title": "Click to verify and redeem Pokemon TCG Live codes"
+  },
+  "background": {
+    "service_worker": "js/background.js",
+    "type": "module"
+  },
+  "icons": {
+    "128": "img/icon128.png",
+    "16": "img/icon16.png",
+    "48": "img/icon48.png"
+  },
+  "permissions": ["activeTab", "storage", "scripting"]
+}
